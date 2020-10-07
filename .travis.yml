@@ -29,6 +29,8 @@ jobs:
       env: TOXENV=py38-dj30-sqlite-xdist-coverage
     - python: 3.8
       env: TOXENV=py38-dj31-sqlite-xdist-coverage
+    - python: 3.9-dev
+      env: TOXENV=py39-dj31-sqlite-xdist-coverage
 
     - python: 3.8
       env: TOXENV=py38-djmaster-sqlite-coverage
