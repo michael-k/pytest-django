@@ -30,7 +30,7 @@ setup(
     python_requires='>=3.5',
     setup_requires=['setuptools_scm>=1.11.1'],
     install_requires=[
-        'pytest>=5.4.0',
+        'pytest>=5.4.0,<6.1',
     ],
     extras_require={
         'docs': [
